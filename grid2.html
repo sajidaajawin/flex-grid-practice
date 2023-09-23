@@ -1,0 +1,302 @@
+<style>
+    .grid {
+       display: grid; 
+    
+       grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+       grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+       
+       gap: 8px;
+       height: 100%;
+       
+    }
+      
+    #item-0 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 1;
+       grid-column-start: 3;
+    
+       grid-row-end: 2;
+       grid-column-end: 4;
+       
+    }
+    #item-1 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 1;
+       grid-column-start: 4;
+    
+       grid-row-end: 2;
+       grid-column-end: 5;
+       
+    }
+    #item-2 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 2;
+       grid-column-start: 4;
+    
+       grid-row-end: 3;
+       grid-column-end: 5;
+       
+    }
+    #item-3 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 1;
+       grid-column-start: 5;
+    
+       grid-row-end: 2;
+       grid-column-end: 6;
+       
+    }
+    #item-4 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 1;
+       grid-column-start: 6;
+    
+       grid-row-end: 2;
+       grid-column-end: 7;
+       
+    }
+    #item-5 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 2;
+       grid-column-start: 5;
+    
+       grid-row-end: 3;
+       grid-column-end: 6;
+       
+    }
+    #item-6 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 2;
+       grid-column-start: 6;
+    
+       grid-row-end: 3;
+       grid-column-end: 7;
+       
+    }
+    #item-7 {
+    
+       background-color: #d9d9d9; 
+       grid-row-start: 1;
+       grid-column-start: 7;
+    
+       grid-row-end: 3;
+       grid-column-end: 9;
+       
+    }
+    #item-8 {
+    
+       background-color: #d9d9d9; 
+       grid-row-start: 1;
+       grid-column-start: 1;
+    
+       grid-row-end: 3;
+       grid-column-end: 3;
+       
+    }
+    #item-9 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 2;
+       grid-column-start: 3;
+    
+       grid-row-end: 3;
+       grid-column-end: 4;
+       
+    }
+    #item-10 {
+    
+       background-color: #d9d9d9; 
+       grid-row-start: 3;
+       grid-column-start: 1;
+    
+       grid-row-end: 5;
+       grid-column-end: 3;
+       
+    }
+    #item-11 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 3;
+       grid-column-start: 3;
+    
+       grid-row-end: 4;
+       grid-column-end: 5;
+       
+    }
+    #item-12 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 4;
+       grid-column-start: 3;
+    
+       grid-row-end: 5;
+       grid-column-end: 5;
+       
+    }
+    #item-13 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 3;
+       grid-column-start: 5;
+    
+       grid-row-end: 5;
+       grid-column-end: 6;
+       
+    }
+    #item-14 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 3;
+       grid-column-start: 6;
+    
+       grid-row-end: 5;
+       grid-column-end: 7;
+       
+    }
+    #item-15 {
+    
+       background-color: #d9d9d9; 
+       grid-row-start: 3;
+       grid-column-start: 7;
+    
+       grid-row-end: 5;
+       grid-column-end: 9;
+       
+    }
+    #item-16 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 5;
+       grid-column-start: 1;
+    
+       grid-row-end: 6;
+       grid-column-end: 2;
+       
+    }
+    #item-17 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 6;
+       grid-column-start: 1;
+    
+       grid-row-end: 7;
+       grid-column-end: 2;
+       
+    }
+    #item-18 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 5;
+       grid-column-start: 2;
+    
+       grid-row-end: 6;
+       grid-column-end: 3;
+       
+    }
+    #item-19 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 6;
+       grid-column-start: 2;
+    
+       grid-row-end: 7;
+       grid-column-end: 3;
+       
+    }
+    #item-20 {
+    
+       background-color: #d9d9d9; 
+       grid-row-start: 5;
+       grid-column-start: 3;
+    
+       grid-row-end: 7;
+       grid-column-end: 5;
+       
+    }
+    #item-21 {
+    
+       background-color: #d9d9d9; 
+       grid-row-start: 5;
+       grid-column-start: 5;
+    
+       grid-row-end: 7;
+       grid-column-end: 7;
+       
+    }
+    #item-22 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 5;
+       grid-column-start: 7;
+    
+       grid-row-end: 6;
+       grid-column-end: 8;
+       
+    }
+    #item-23 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 5;
+       grid-column-start: 8;
+    
+       grid-row-end: 6;
+       grid-column-end: 9;
+       
+    }
+    #item-24 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 6;
+       grid-column-start: 7;
+    
+       grid-row-end: 7;
+       grid-column-end: 8;
+       
+    }
+    #item-25 {
+    
+       background-color: #c2c2c2; 
+       grid-row-start: 6;
+       grid-column-start: 8;
+    
+       grid-row-end: 7;
+       grid-column-end: 9;
+       
+    }
+    </style>
+    
+    <div class="grid">
+      <div id="item-0">sub1</div>
+      <div id="item-1">sub2</div>
+      <div id="item-2">sub4</div>
+      <div id="item-3">sub1</div>
+      <div id="item-4">sub2</div>
+      <div id="item-5">sub3</div>
+      <div id="item-6">sub4</div>
+      <div id="item-7">items4</div>
+      <div id="item-8">item1</div>
+      <div id="item-9">sub3</div>
+      <div id="item-10">item5</div>
+      <div id="item-11">sub1</div>
+      <div id="item-12">sub2</div>
+      <div id="item-13">sub1</div>
+      <div id="item-14">sub2</div>
+      <div id="item-15">item8</div>
+      <div id="item-16">sub1</div>
+      <div id="item-17">sub2</div>
+      <div id="item-18">sub3</div>
+      <div id="item-19">sub4</div>
+      <div id="item-20">items10</div>
+      <div id="item-21">items11</div>
+      <div id="item-22">sub1</div>
+      <div id="item-23">sub2</div>
+      <div id="item-24">sub3</div>
+      <div id="item-25">sub4</div>
+    </div>
